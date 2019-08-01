@@ -1,6 +1,6 @@
 package app.pilares;
 
-public class Cat extends Animal {
+public class Cat extends Animal implements IAnimal{
     
     public Cat( String name ) {
         super(name);
